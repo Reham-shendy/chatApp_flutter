@@ -20,10 +20,8 @@ class card extends StatelessWidget {
           title:  Text("Person name", style: TextStyle(fontWeight: FontWeight.bold),),
           subtitle: Text("chat content"),
           trailing: Text("Yesterday", style: TextStyle(color: Colors.blueAccent),),
-
+        ),
       ),
-      ),
-
     );
   }
 }

@@ -40,7 +40,6 @@ class _MyAppState extends State <main_chat_page>{
           ],
         ),
         body: myWidgets.elementAt(selectedIndex),
-
         bottomNavigationBar:
         BottomNavigationBar(
           onTap:(val){
